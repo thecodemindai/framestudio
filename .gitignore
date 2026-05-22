@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+release/
+release2/
+out/
+coverage/
+
+# Local environment overrides — never commit
+.env
+.env.*
+!.env.example
+
+# Bundled third-party binaries (download via your package manager — see README)
+binaries/
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+
+# Electron / electron-builder caches
+.cache/
+.electron-builder/
+*.exe
+*.dmg
+*.AppImage
+*.snap
+*.deb
+*.rpm
+
+# Source maps you may not want to publish
+*.map

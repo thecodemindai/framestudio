@@ -1,0 +1,44 @@
+﻿{
+  "appId": "com.framestudio.app",
+  "productName": "FrameStudio",
+  "copyright": "Copyright 2024 FrameStudio",
+  "directories": {
+    "output": "release2",
+    "buildResources": "build"
+  },
+  "asar": true,
+  "files": [
+    "electron/**/*",
+    "dist/**/*",
+    "node_modules/**/*",
+    "package.json"
+  ],
+  "extraResources": [
+    {
+      "from": "dist",
+      "to": "dist"
+    },
+    {
+      "from": "binaries",
+      "to": "binaries",
+      "filter": ["**/*"]
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "artifactName": "${productName}-Setup-${version}.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "FrameStudio"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "B&W Frame Capturer",
+  "description": "A minimalist, black and white video frame extraction tool.",
+  "requestFramePermissions": []
+}
