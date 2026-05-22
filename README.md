@@ -1,5 +1,7 @@
 # FrameStudio
 
+<img width="1919" height="999" alt="Screenshot 2026-05-22 112323" src="https://github.com/user-attachments/assets/e17fb3a6-516e-4fd0-87b3-bf0983a9c1a1" />
+
 > A focused video frame extraction and grid composition tool with built-in URL
 > import. Available as a web app or a packaged Windows desktop app.
 
